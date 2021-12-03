@@ -1,0 +1,4 @@
+pandas
+python-dotenv
+jupyter
+git+https://github.com/EnergieID/entsoe-py.git
