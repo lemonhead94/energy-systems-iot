@@ -1,4 +1,10 @@
 pandas
 python-dotenv
 jupyter
+numpy
+sklearn
+tensorflow
+matplotlib
+holidays
+darts
 git+https://github.com/EnergieID/entsoe-py.git
