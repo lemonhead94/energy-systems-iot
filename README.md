@@ -8,8 +8,13 @@ create .env file in the same directory
 API_KEY=YOUR_API_KEY_WITHOUT_QUOTE
 ```
 
-install requirement
+```
+# create virtual python environment
+conda create --prefix ./.venv
+conda activate .venv/
 
-```bash
-pip install -r requirements.txt
+conda install python=3.9
+
+# install the Python packages
+python -m pip install -r requirements.txt
 ```
