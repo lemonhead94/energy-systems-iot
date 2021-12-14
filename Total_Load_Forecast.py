@@ -254,10 +254,10 @@ def get_temporal_features_(index, features, n_cos_sin_hour=6, n_cos_sin_weekday=
 if __name__ == "__main__":
 
     #Set Parameters for API-Query
-    # from dotenv import load_dotenv
-    # load_dotenv()
-    # token = os.environ.get('API_KEY')
-    token = "431ee029-249a-4cd3-a4f6-b3ea8043eb34"
+    from dotenv import load_dotenv
+    load_dotenv()
+    token = os.environ.get('API_KEY')
+    
     start = pd.Timestamp('20180101', tz='Europe/Zurich')
     end = pd.Timestamp('20211130', tz='Europe/Zurich')
     country_code = 'CH'
